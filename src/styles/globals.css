@@ -16,6 +16,7 @@
 
 body {
   background-color: #181c23;
+  bg-button:#282e3a;
 }
 
 .header-fixed {
@@ -28,6 +29,19 @@ body {
   top: 0;
   z-index: 12;
 }
+
+.bg-grad{
+  background-image: linear-gradient(270deg, #f09819 -0.08%, #ff512f);
+  color: #F1F1F1;
+  text-color: #F1F1F1;
+}
+
+.bg-text-grad{
+  background: linear-gradient(270deg, #f09819 -0.08%, #ff512f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .btn-grad {
   /* background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%); */
@@ -167,6 +181,15 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.coin-swap {
+  background: #282e3a;
+  border: none;
+  /* color: #fefefe; */
+  color: #a8a8a8;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .coin-input-22 {

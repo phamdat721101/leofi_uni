@@ -1,8 +1,7 @@
 "use client";
-import Chart from "@/components/Chart/EChart";
+import Chart from "@/components/Chart/TradingViewChart";
 import { SwapForm } from "@/components/Form/Swap"; // Import the SwapForm component
 import History from "@/components/History";
-// import { chartData } from "@/components/Chart/EChart";
 
 export default function Home() {
   return (
@@ -10,11 +9,11 @@ export default function Home() {
       <main className="max-w-7xl mx-auto py-6 md:py-8">
         <div className="grid grid-cols-1 md:grid-cols-5  gap-6 items-center">
           <div className="col-span-1 md:col-span-3 rounded-lg shadow-sm">
-            <Chart />
+            < Chart/>
           </div>
-          <div className="container col-span-1 md:col-span-2 rounded-lg shadow-sm">
+          <div className="container col-span-1 md:col-span-2 rounded-xl shadow-sm">
             <div className="boxed">
-              <div className="abc">
+              <div className="w-full mx-0.25 my-0.25 text-white">
                 <SwapForm />
               </div>
             </div>

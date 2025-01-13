@@ -106,8 +106,8 @@ const Chart = ({
   }, [data, backgroundColor, textColor]);
 
   return (
-    <div id="chart-container" className="relative h-[400px]">
-      {/* <div className="absolute top-1 left-1 z-10">GOLD/USD</div> */}
+    <div id="chart-container" className="relative ">
+      <div className="absolute top-1 left-1 z-10">GOLD/USD</div>
     </div>
   );
 };

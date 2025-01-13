@@ -14,16 +14,16 @@ const metis_sepolia: Chain = {
   name: "Metis Sepolia Testnet",
   nativeCurrency: {
     decimals: 18,
-    name: "Unichain Sepolia Testnet",
-    symbol: "ETH",
+    name: "Metis Sepolia Testnet",
+    symbol: "tMETIS",
   },
   rpcUrls: {
-    default: { http: ["https://sepolia.unichain.org"] },
+    default: { http: ["https://sepolia.metisdevops.link	"] },
   },
   blockExplorers: {
     default: {
-      name: "Unichain Sepolia Testnet explorer",
-      url: "https://sepolia.uniscan.xyz/",
+      name: "Metis Sepolia Testnet explorer",
+      url: "https://sepolia-explorer.metisdevops.link/",
     },
   },
   testnet: true,

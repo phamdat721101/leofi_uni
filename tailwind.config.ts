@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		spacing: {
+			'0.25': '1px',  // This will create classes like mx-0.25, p-0.25, etc
+			'custom': '3px', // You can use any name you want
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

@@ -22,8 +22,8 @@ interface Token {
 
 export const SwapForm: React.FC = () => {
   const [tokenAInput, setTokenAInput] = useState<Token>({
-    name: "ETH",
-    logoUrl: "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+    name: "METIS",
+    logoUrl: "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png",
     balance: "0",
     price: 0,
   });
@@ -59,7 +59,9 @@ export const SwapForm: React.FC = () => {
           const result = await response.json();
           setPriceA(result.Price);
         }
-      } catch (error) {}
+      } catch (error) {
+        console.log("Error message: ", error)
+      }
     };
 
     const fetchBPrice = async () => {
@@ -72,7 +74,9 @@ export const SwapForm: React.FC = () => {
           const result = await response.json();
           setPriceB(result.price * 10 ** 10);
         }
-      } catch (error) {}
+      } catch (error) {
+        console.log("Error message: ", error)
+      }
     };
 
     fetchAPrice();
@@ -106,8 +110,8 @@ export const SwapForm: React.FC = () => {
     if (+amountAInput > 0) {
       writeContract({
         abi,
-        address: "0x8Dc5B2Ccb8F325898832129e5507237268d561A8",
-        functionName: "buy_gold",
+        address: "0xd4c4d35Af5b77F0f66e80e507cFbCC23240bDb32",
+        functionName: "buyGold",
         args: [],
         value: parseEther(amountAInput),
       });
