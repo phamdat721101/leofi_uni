@@ -88,8 +88,8 @@ export default function History() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const MetisToken = {
-    symbol: "METIS",
-    logo_url: "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png",
+    symbol: "XION",
+    logo_url: "/xion.png",
   }
   const DGoldToken = {
     symbol: "DGOLD",

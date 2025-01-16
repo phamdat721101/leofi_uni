@@ -443,7 +443,7 @@ export const SwapForm: React.FC = () => {
           </div>
           <div className="flex items-center gap-1">
             <Fuel width={14} height={14} />
-            <div>0.00025 METIS</div>
+            <div>0.00025 XION</div>
           </div>
         </div>
         {isPending ? (

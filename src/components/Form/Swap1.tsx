@@ -22,8 +22,8 @@ interface Token {
 
 export const SwapForm: React.FC = () => {
   const [tokenAInput, setTokenAInput] = useState<Token>({
-    name: "METIS",
-    logoUrl: "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png",
+    name: "XION",
+    logoUrl: "/xion.png",
     balance: "0",
     price: 0,
   });

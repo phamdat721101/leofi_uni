@@ -1,11 +1,11 @@
 export const chainData =[
   {
-    tokenSymbol: "STT",
-    tokenName: "Somnia",
+    tokenSymbol: "XION",
+    tokenName: "XION",
     contractAddress: "native",
     decimals: 18,
     chainId: 1088,
-    logoURI: "/somnia.png",
+    logoURI: "/xion.png",
     price:45.78
   },
   {
